@@ -1,0 +1,9 @@
+torch>=2.0.0
+Pillow>=9.0.0
+tqdm>=4.64.0
+argparse>=1.4.0
+gradio>=3.50.0
+git+https://github.com/huggingface/diffusers.git
+xformers>=0.0.20; platform_system != "Darwin" or platform_machine != "arm64"
+accelerate>=0.20.0
+transformers>=4.30.0
